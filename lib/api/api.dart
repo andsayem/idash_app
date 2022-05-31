@@ -50,7 +50,7 @@ class CallApi {
        SharedPreferences localStorage = await SharedPreferences.getInstance();
     var token = localStorage.getString('token').toString();
     var fullUrl = _url + apiUrl;
-   // print(token);
+    print(fullUrl);
     return await http.get(Uri.parse(fullUrl), headers:{
         'Content-type': 'application/json',
         'Accept': 'application/json' ,
