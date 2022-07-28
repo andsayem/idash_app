@@ -170,7 +170,7 @@ class _LogInState extends State<LogIn> {
                                 alignment: Alignment.centerRight,
                                 child: Padding(
                                   padding: const EdgeInsets.all(10.0),
-                                  child: FlatButton(
+                                  child: TextButton(
                                     child: Padding(
                                       padding: EdgeInsets.only(
                                           top: 8,
@@ -188,11 +188,11 @@ class _LogInState extends State<LogIn> {
                                         ),
                                       ),
                                     ),
-                                    color: kPrimaryColor,
-                                    disabledColor: Colors.grey,
-                                    shape: new RoundedRectangleBorder(
-                                        borderRadius:
-                                            new BorderRadius.circular(3)),
+                                    // color: kPrimaryColor,
+                                    // disabledColor: Colors.grey,
+                                    // shape: new RoundedRectangleBorder(
+                                    //     borderRadius:
+                                    //         new BorderRadius.circular(3)),
                                     onPressed: _isLoading ? null : _login,
                                   ),
                                 ),
